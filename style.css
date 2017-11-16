@@ -97,10 +97,21 @@ display: inline-block;
 }
 
 #navigation{
+    display: inline-block;
+    padding:20px 0px 20px 20px;
+    margin-left:50px;
+    width:25%;
+    vertical-align: top;
 
 }
 #main{
-
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    width:58%;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #list1{
 
@@ -109,5 +120,16 @@ display: inline-block;
 
 }
 #footer{
+    
+}
+ul {
+    font-size:18px;
+    text-decoration: underline;
+    list-style-type: circle;
+    display: inline-block;
+   text-align:  center;
+   color:white;
+   vertical-align: top;
+   list-style-position: inside;
     
 }
