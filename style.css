@@ -11,18 +11,21 @@
 }
 #logo{
     display: inline-block;
-    padding: 30px;
+    padding: 5px;
  
 }
 form{
     display: inline-block;
-    float: right;
     color: white;
-    float:right;
     display: inline-block;
     padding: 10px;
     margin-right: 30px;
     
+}
+#headerright{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
 }
 
 img{
@@ -32,11 +35,13 @@ img{
 #text{
     font-size: 14px;
     color: white;
-    float:right;
-    display: inline-block;
-    padding: 10px;
-    margin-right: 30px;
+    display: block;
+    padding: 5px 0px 0px 0px;
+    margin-left: 100px;
+ 
     margin-bottom: 5px;
+    vertical-align: top;
+    
 }
 
 a{
@@ -46,17 +51,19 @@ a{
 
 #sizeform{
     margin-top: 5px;
-    padding: 5px 20px 5px 70px;
+    padding: 5px 50px 5px 70px;
     background: #444444;
     border-radius: 15px;
+    display: block;
 }
 input[type=text] {
     width: 70%;
     height:50%;
     position: relative;
     padding: 10px 0px ;
-    margin: 8px 0;
+    margin: 8px 0px;
     box-sizing: border-box;
+    display: inline;
    
 }
 input[type=button]{
@@ -64,14 +71,31 @@ input[type=button]{
    font-size: 16px;
    background-color: #145274;
    color: white;
+   display: inline;
+
 
 
     
 
 }
 #menubar{
+    display: inline-block;
+    background: linear-gradient(#1F78AA, #377FAA , #1F78AA);
+    padding: 10px 30px 10px 50px;
+    margin-left:60px;
+    margin-bottom: 10px;
+    border-radius:10px;
 
 }
+.menulink{
+font-size: 22px;
+color:white;
+text-decoration: none;
+margin-right:30px;
+display: inline-block;
+
+}
+
 #navigation{
 
 }
