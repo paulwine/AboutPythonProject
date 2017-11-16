@@ -36,6 +36,7 @@ img{
     display: inline-block;
     padding: 10px;
     margin-right: 30px;
+    margin-bottom: 5px;
 }
 
 a{
@@ -44,17 +45,29 @@ a{
 }
 
 #sizeform{
-    margin: 0px;
-    padding: 20px ;
-    background:black;
+    margin-top: 5px;
+    padding: 5px 20px 5px 70px;
+    background: #444444;
+    border-radius: 15px;
 }
 input[type=text] {
     width: 70%;
     height:50%;
     position: relative;
-    left: 15%;
+    padding: 10px 0px ;
     margin: 8px 0;
     box-sizing: border-box;
+   
+}
+input[type=button]{
+   
+   font-size: 16px;
+   background-color: #145274;
+   color: white;
+
+
+    
+
 }
 #menubar{
 
